@@ -1,7 +1,8 @@
 # MCU name
 MCU = STM32L433
 
-VIA_ENABLE = no
+# https://github.com/qmk/qmk_firmware/pull/16012
+VIA_ENABLE = no # Super important! Until full support is in main QMK, enabling VIA bricks the board.
 BOOTLOADER = stm32-dfu
 
 # Build Options
