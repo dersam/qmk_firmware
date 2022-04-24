@@ -58,7 +58,7 @@
 #define ENCODERS_PAD_B { A8 }
 
 /* Specifies the number of pulses the encoder registers between each detent */
-#define ENCODER_RESOLUTION 4
+#define ENCODER_RESOLUTION 2
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 45
